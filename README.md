@@ -1,4 +1,4 @@
-# Collection de scripts bash pour la gestion de branches Git
+# Collection de scripts bash pour la gestion de branches Git
 
 Ce repository contient différents scripts bash pour automatiser des tâches courantes dans la gestion de branches Git. Chacun des scripts est décrit ci-dessous.
 
@@ -18,13 +18,20 @@ Ce script permet de fusionner une branche en cours de développement dans la bra
 - Demander le nom de la branche à fusionner
 - Fusionner la branche sélectionnée avec la branche principale
   
-##  delete_branch.sh
+## delete_branch.sh
 Ce script permet de supprimer une branche en effectuant les étapes suivantes :
 
 - Se déplacer sur la branche principale
 - Télécharger les dernières modifications distantes
 - Demander le nom de la branche à supprimer
 - Supprimer la branche sélectionnée localement et sur le dépôt distant
+
+## push_branch.sh
+Ce script permet de pousser toutes les modifications en local sur une branche en effectuant les étapes suivantes :
+
+- Ajout des fichiers modifiés
+- Commit des fichiers modifiés
+- Push sur la branche
 
 ## Alias 
 
