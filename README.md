@@ -33,6 +33,12 @@ Ce script permet de pousser toutes les modifications en local sur une branche en
 - Commit des fichiers modifiés
 - Push sur la branche
 
+## diff_branch.sh
+Ce script permet de voir les différences avec une branche distante en effectuant les étapes suivantes :
+
+- Demander le nom de la branche distante
+- Afficher les différences
+
 ## Alias 
 
 Vous pouvez créer des alias pour exécuter ces scripts de la manière suivante :
