@@ -48,8 +48,12 @@ Ouvrez votre fichier de configuration bash, généralement ~/.bashrc
 Ajoutez les lignes suivantes à la fin du fichier pour définir vos alias :
 
 ```
-alias delete_branch='sh /chemin/vers/delete_branch.sh'
-alias merge_branch='sh /chemin/vers/merge_branch.sh'
+alias delete_branch='/chemin/shortcuts_git/delete_branch.sh'
+alias merge_branch='/chemin/shortcuts_git/merge_branch.sh'
+alias create_branch='/chemin/shortcuts_git/create_branch.sh'
+alias push_branch='/chemin/shortcuts_git/push_branch.sh'
+alias diff_branch='/chemin/shortcuts_git/diff_branch.sh'
+
 ```
 
 Enregistrez les modifications et rechargez le fichier de configuration en utilisant la commande suivante :
