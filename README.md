@@ -2,7 +2,9 @@
 
 Ce repository contient différents scripts bash pour automatiser des tâches courantes dans la gestion de branches Git. Chacun des scripts est décrit ci-dessous.
 
-## create_branch.sh
+## Scripts
+
+### create_branch.sh
 Ce script permet de créer une nouvelle branche à partir de la branche principale en effectuant les étapes suivantes :
 
 - Se déplacer sur la branche principale
@@ -10,7 +12,7 @@ Ce script permet de créer une nouvelle branche à partir de la branche principa
 - Demander le nom de la nouvelle branche
 - Créer une nouvelle branche à partir de la branche principale
 
-## merge_branch.sh
+### merge_branch.sh
 Ce script permet de fusionner une branche en cours de développement dans la branche principale en effectuant les étapes suivantes :
 
 - Se déplacer sur la branche principale
@@ -18,7 +20,7 @@ Ce script permet de fusionner une branche en cours de développement dans la bra
 - Demander le nom de la branche à fusionner
 - Fusionner la branche sélectionnée avec la branche principale
   
-## delete_branch.sh
+### delete_branch.sh
 Ce script permet de supprimer une branche en effectuant les étapes suivantes :
 
 - Se déplacer sur la branche principale
@@ -26,14 +28,14 @@ Ce script permet de supprimer une branche en effectuant les étapes suivantes :
 - Demander le nom de la branche à supprimer
 - Supprimer la branche sélectionnée localement et sur le dépôt distant
 
-## push_branch.sh
+### push_branch.sh
 Ce script permet de pousser toutes les modifications en local sur une branche en effectuant les étapes suivantes :
 
 - Ajout des fichiers modifiés
 - Commit des fichiers modifiés
 - Push sur la branche
 
-## diff_branch.sh
+### diff_branch.sh
 Ce script permet de voir les différences avec une branche distante en effectuant les étapes suivantes :
 
 - Demander le nom de la branche distante
